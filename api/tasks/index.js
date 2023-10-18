@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 // Connect to the database
 mongoose.connect(
-    process.env.CONNECTION_STRING, // Retrieve connection string
+    'mongodb://webapp2:D964jV6J6avYGqLT447Q1XCXJ8HnND6m7yhrHQxcn2uKAQgoABj0OXaHNRfFRJwFycVJYD3TsfZYACDbrOOahw==@webapp2.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@webapp2@', // Retrieve connection string
     { // boiler plate values
         useNewUrlParser: true,
         useUnifiedTopology: true,
